@@ -1,13 +1,107 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+body
+{
+  background-color:#ffebbc;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.complete
+{
+  border:2px solid black;
+  width:fit-content;
+  padding-top:20px;
+  padding-bottom:20px;
+  padding-left:60px;
+  padding-right:60px;
+  background-color: #5da7ae;
+  border-radius: 10px;
+  margin-top:60px;
+}
+
+.book-name,.author-name
+{
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.book-box,.author-box
+{
+  margin-left:10px;
+  margin-bottom:5px;
+  padding:10px;
+  border-radius: 10px;
+}
+
+.submit
+{
+  border:2px solid black;
+  border-radius: 10px;
+  padding:10px;
+  font-weight: 500;
+  cursor:pointer;
+}
+.submit:hover{
+  background-color: lightseagreen;
+}
+.list
+{
+  list-style: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.delete
+{
+  cursor:pointer;
+  border:2px solid black;
+  border-radius: 10px;
+  font-weight: 400;
+  background-color:lightseagreen;
+  position:relative;
+  top:25px;
+  right:130px;
+}
+
+.delete:hover
+{
+  background-color: #FF0800;
+}
+.read
+{
+  cursor:pointer;
+  border:2px solid black;
+  border-radius:10px;
+  font-weight: 400;
+  background-color: lightseagreen;
+  position:relative;
+  top:25px;
+  right:20px;
+}
+
+.read:hover{
+  background-color:#0B6623;
+  color:white;
+}
+
+.main-task
+{
+  border:2px solid black;
+  width:fit-content;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #b6d5e1;
+}
+.unread
+{
+  cursor:pointer;
+  border:2px solid black;
+  border-radius: 10px;
+  font-weight: 400;
+  background-color: lightseagreen;
+  position:relative;
+  top:25px;
+  background-color: cyan;
+}
+.unread:hover{
+  background-color: #5da7ae;
 }
