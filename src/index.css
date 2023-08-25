@@ -56,10 +56,10 @@ body
   border:2px solid black;
   border-radius: 10px;
   font-weight: 400;
-  background-color:lightseagreen;
+  background-color:cyan;
   position:relative;
   top:25px;
-  right:130px;
+  right:45%;
 }
 
 .delete:hover
@@ -72,10 +72,10 @@ body
   border:2px solid black;
   border-radius:10px;
   font-weight: 400;
-  background-color: lightseagreen;
+  background-color:cyan ;
   position:relative;
   top:25px;
-  right:20px;
+  right:25%;
 }
 
 .read:hover{
@@ -87,9 +87,9 @@ body
 {
   border:2px solid black;
   width:fit-content;
-  padding: 30px;
+  padding: 5px;
+  padding-bottom:15px;
   border-radius: 10px;
-  background-color: #b6d5e1;
 }
 .unread
 {
@@ -101,7 +101,30 @@ body
   position:relative;
   top:25px;
   background-color: cyan;
+  right:20%;
 }
 .unread:hover{
   background-color: #5da7ae;
 }
+.paragraph
+{
+  position:absolute;
+  top:20%;
+  left:70%;
+  border:2px solid black;
+  border-radius: 10px;
+  padding:10px;
+  background-color: goldenrod;
+}
+.para-1
+{
+  position:absolute;
+  top:30%;
+  left:70%;
+  border:2px solid black;
+  border-radius: 10px;
+  padding:10px;
+  background-color: lightsalmon;
+
+}
+
